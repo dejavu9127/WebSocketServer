@@ -4,6 +4,10 @@
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "dejavu",
     "contributors": [],
+	"main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
     "dependencies": {
         "express":"latest",
         "http":"latest",
