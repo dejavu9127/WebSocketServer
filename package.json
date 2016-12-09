@@ -1,0 +1,12 @@
+{
+    "name": "WebSocketEchoServer",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "dejavu",
+    "contributors": [],
+    "dependencies": {
+        "express":"latest",
+        "http":"latest",
+        "ws":"latest"
+    }
+}
