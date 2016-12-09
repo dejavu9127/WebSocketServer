@@ -24,6 +24,7 @@ var wss=new WebSocketServer({server:server});
 wss.on('connection',function(connection){
     console.log("New Incoming Connection");
     connection.on('message',function(message){
+		console.log(message);
         connection.send(message);
     });
     connection.on('close',function(){
